@@ -1,32 +1,19 @@
-import Navbar from "@/components/layout/Navbar/Navbar";
+import Navbar from "@/components/Layout/Navbar";
 import React from "react";
-import { observer } from "mobx-react-lite";
-import { useThemeVM } from "@/context/Contexts";
-import { makeStyles } from "@fluentui/react-components";
 
 interface props {
   children: React.ReactNode;
 }
 
-const useStyles = makeStyles({
-  root: {
-    minHeight: "100vh",
-  },
-  children: {
-    height: "calc(100vh - 4rem)",
-  },
-});
-
 const Layout = ({ children }: props) => {
-  const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className="h-100">
       <Navbar />
-      <div className={classes.children}>{children}</div>
+      <div className="container" style={{ marginTop: '5em' }}>{children}</div>
     </div>
   );
 };
 
-export default observer(Layout);
+export default Layout;
 
