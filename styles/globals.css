@@ -6,7 +6,16 @@ html {
 }
 
 #__next {
-  min-height: 100vh;
+  min-height: calc(100vh - 5rem);
 }
 
+#__next::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  background: black;
+}
 
