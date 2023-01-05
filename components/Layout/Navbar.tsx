@@ -5,8 +5,6 @@ import { useRouter } from 'next/router';
 const Navbar = () => {
   const router = useRouter();
 
-  console.log(router.route);
-
   return (
     <div className={"fixed-top " + styles["nav-container"]}>
       <div className={"container d-flex justify-content-between align-items-center row h-100 m-auto " + styles.navigation}>
@@ -31,7 +29,7 @@ const Navbar = () => {
                     </Link>
                   </div>
                   <div className='col-6 d-flex ps-0'>
-                    <div className='vr p-0 m-0 bg-dark me-3' />
+                    <div className='vr p-0 m-0 bg-dark me-5' />
                     <div className='d-flex flex-column gap-3'>
                       <div className='text-black h6'>FOR INFLUENCERS</div>
                       <Link className='p-0' href="/services/for-influencers/management" style={router.route.includes("management") ? { fontWeight: '900' } : {}}>

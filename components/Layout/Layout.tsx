@@ -9,9 +9,9 @@ interface props {
 const Layout = ({ children }: props) => {
 
   return (
-    <div className="flex flex-col" style={{ minHeight: 'calc(100vh - 5rem)' }}>
+    <div className="d-flex flex-column" style={{ minHeight: 'calc(100vh - 5rem)', marginTop: '5rem' }}>
       <Navbar />
-      <div className="container" style={{ marginTop: '5em' }}>{children}</div>
+      <div className="container">{children}</div>
       <Footer />
     </div>
   );

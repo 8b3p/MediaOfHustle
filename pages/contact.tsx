@@ -1,7 +1,11 @@
 
 
 const Contact = () => {
-  return <></>;
+  return (
+    <div>
+      something is in here i guess
+    </div>
+  )
 }
 
 
