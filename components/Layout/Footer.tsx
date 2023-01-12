@@ -27,17 +27,17 @@ const Footer = () => {
               <ul className={styles.footerList + ' d-flex flex-column gap-2'}>
                 <div className='h6'>FOR BRANDS</div>
                 <li>
-                  <Link className='p-0' href="/services/for-brands/influencer-marketing" style={router.route.includes("influencer-marketing") ? { fontWeight: '900' } : {}}>
+                  <Link className='p-0' href="/services/for-brands/influencer-marketing" style={router.route.includes("influencer-marketing") ? { fontWeight: '700' } : {}}>
                     Influencer Marketing
                   </Link>
                 </li>
                 <li>
-                  <Link className='p-0' href="/services/for-brands/social-media-marketing" style={router.route.includes("social-media-marketing") ? { fontWeight: '900' } : {}}>
+                  <Link className='p-0' href="/services/for-brands/social-media-marketing" style={router.route.includes("social-media-marketing") ? { fontWeight: '700' } : {}}>
                     Social Media Marketing
                   </Link>
                 </li>
                 <li>
-                  <Link className='p-0' href="/services/for-brands/paid-media" style={router.route.includes("paid-media") ? { fontWeight: '900' } : {}}>
+                  <Link className='p-0' href="/services/for-brands/paid-media" style={router.route.includes("paid-media") ? { fontWeight: '700' } : {}}>
                     Paid Media
                   </Link>
                 </li>
@@ -47,7 +47,7 @@ const Footer = () => {
               <ul className={styles.footerList + ' d-flex flex-column gap-2'}>
                 <div className='h6'>FOR INFLUENCERS</div>
                 <li>
-                  <Link className='p-0' href="/services/for-influencers/management" style={router.route.includes("management") ? { fontWeight: '900' } : {}}>
+                  <Link className='p-0' href="/services/for-influencers/management" style={router.route.includes("management") ? { fontWeight: '700' } : {}}>
                     Management
                   </Link>
                 </li>
@@ -57,17 +57,17 @@ const Footer = () => {
               <ul className={styles.footerList + ' d-flex flex-column gap-2'}>
                 <div className='h6'>CASE STUDIES</div>
                 <li>
-                  <Link className='p-0' href="/case-studies/gaming" style={router.route.includes("gaming") ? { fontWeight: '900' } : {}}>
+                  <Link className='p-0' href="/case-studies/gaming" style={router.route.includes("gaming") ? { fontWeight: '700' } : {}}>
                     Gaming
                   </Link>
                 </li>
                 <li>
-                  <Link className='p-0' href="/case-studies/lifestyle" style={router.route.includes("lifestyle") ? { fontWeight: '900' } : {}}>
+                  <Link className='p-0' href="/case-studies/lifestyle" style={router.route.includes("lifestyle") ? { fontWeight: '700' } : {}}>
                     LifeStyle
                   </Link>
                 </li>
                 <li>
-                  <Link className='p-0' href="/case-studies/tech" style={router.route.includes("tech") ? { fontWeight: '900' } : {}}>
+                  <Link className='p-0' href="/case-studies/tech" style={router.route.includes("tech") ? { fontWeight: '700' } : {}}>
                     Tech
                   </Link>
                 </li>
@@ -77,12 +77,12 @@ const Footer = () => {
               <ul className={styles.footerList + ' d-flex flex-column gap-2'}>
                 <div className='h6'>MORE</div>
                 <li>
-                  <Link className='p-0' href="/about" style={router.route.includes("/about") ? { fontWeight: '900' } : {}}>
+                  <Link className='p-0' href="/about" style={router.route.includes("/about") ? { fontWeight: '700' } : {}}>
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link className='p-0' href="/contact" style={router.route.includes("/contact") ? { fontWeight: '900' } : {}}>
+                  <Link className='p-0' href="/contact" style={router.route.includes("/contact") ? { fontWeight: '700' } : {}}>
                     Contact
                   </Link>
                 </li>
@@ -92,9 +92,9 @@ const Footer = () => {
         </div>
       </section>
       <section className="bg-black text-white" style={{ marginTop: '1px' }}>
-        <div className="container d-flex justify-content-between">
-          <span className="m-3 fs-6">Turkey, Istanbul</span>
-          <span className="m-3 fs-6"> Copyright © 2023 MEDIA OF HUSTLE. </span>
+        <div className="container d-flex justify-content-between align-items-center py-3">
+          <span className="fs-6">Turkey, Istanbul</span>
+          <span className="fs-6">Copyright © 2023 MEDIA OF HUSTLE.</span>
         </div>
       </section>
     </div>

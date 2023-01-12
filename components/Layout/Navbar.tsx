@@ -10,7 +10,6 @@ const Navbar = () => {
       <div className={"container d-flex justify-content-between align-items-center row h-100 m-auto " + styles.navigation}>
         <Link href="/" className="fs-5 col-2 text-center text-decoration-none text-white">MEDIA OF HUSTLE</Link>
         <div className='col-9 d-flex row justify-content-between align-items-center'>
-
           <ul className="col-8 d-flex align-items-center gap-5 justify-content-center p-0 m-0">
             <li className={styles.dropdown + (router.route.includes("services") ? (" " + styles.selected) : '')}>
               <button className={styles['menu-item']}>Services</button>
